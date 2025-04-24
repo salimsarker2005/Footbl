@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>লাইভ খেলা দেখুন</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            overflow-x: hidden; /* Overflow x-axis hidden to remove horizontal scroll */
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 30px;
+        }
+
+        .iframe-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh; /* Full viewport height */
+            margin: 0;
+        }
+
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>লাইভ খেলা দেখুন</h1>
+    <div class="iframe-container">
+        <iframe src="//stream.crichd.sc/update/skys2.php?autoplay=1" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+</body>
+</html>
